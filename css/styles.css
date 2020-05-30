@@ -196,16 +196,17 @@ ul {
     background-position: center;
     background-color: var(--primary-text-color);
     
-    outline: 2px solid tomato;
 }
 
 .hero-title {
     color: var(--second-title-color);
 
-    margin-top: 0;
-    margin-bottom: 46px;
+    margin-top: 0px;
+    margin-bottom: 0;
 
     padding-top: 200px;
+    padding-bottom: 30px;
+
     
 
  
@@ -409,7 +410,7 @@ ul {
 .chain-list .link {
     display: block;
     padding-top: 10px;
-   text-align: center;
+    text-align: center;
     color: var(--second-title-color);
     text-decoration: none;
     border-radius: 50%;
