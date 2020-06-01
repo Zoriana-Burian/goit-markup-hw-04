@@ -161,7 +161,7 @@ ul {
 .icon-envelope {
     width: 16px;
     height: 11.2px;
-    fill: #757575;
+    fill: currentColor
     
 }
 
@@ -173,7 +173,7 @@ ul {
 .icon-phone {
     width: 10px;
     height: 14.94px;
-    fill: #757575;
+    fill: currentColor;
 
 }
 
@@ -331,6 +331,10 @@ ul {
 
     margin-top: 0;
     margin-bottom: 0;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
     
    font-weight: 700;
    font-size: 14px;
@@ -361,9 +365,7 @@ ul {
 
 .team-list .item {
     width: 270px;
-    
-    
-   
+     
 }
 
 .team-list .item:not(:last-child) {
@@ -408,10 +410,10 @@ ul {
 }
     
 .chain-list .link {
-    display: block;
-    padding-top: 10px;
-    text-align: center;
-    color: var(--second-title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
     text-decoration: none;
     border-radius: 50%;
     width: 44px;
@@ -420,15 +422,15 @@ ul {
 
 .chain-list .link:hover, 
 .chain-list .link:focus {
-
+    color: var(--second-title-color);
     background-color: var(--accent-color);
 }
 
 .chain-icon {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
-     background-position: bottom;
+    fill: currentColor;
+   
 }
 
 .chain-icon:hover {
@@ -483,12 +485,15 @@ ul {
 }
 
 .clients-list .link {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     color: var(--link-color);
-    display: block;
+    
     width: 170px;
     height: 90px;
-    padding-top: 20px;
+    
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     background-color: var(--second-title-color);
@@ -504,7 +509,7 @@ ul {
 }
 
 .clients-icon {
-    fill: #afb1b8;
+    fill: currentColor
     
 }
 
@@ -607,12 +612,13 @@ ul {
 
 
 .social-network .link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    text-align: center;
-    padding-top: 10px;
+   
 
     color: var(--second-title-color);
     text-decoration: none;
