@@ -709,7 +709,6 @@ ul {
 .portfolio-list .type:focus {
     color: var(--second-title-color);
     background-color: var(--accent-color);
- 
 } 
 
 
